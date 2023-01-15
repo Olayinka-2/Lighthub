@@ -1,7 +1,7 @@
-const menuLinks = document.getElementsByClassName('nav-menu')[0]
-const bar = document.getElementsByClassName('menu')[0]
+const links = document.querySelector('.nav-menu');
+const bar = document.querySelector('.menu');
 
 bar.addEventListener('click', function() {
-    menuLinks.classList.toggle('isactive');
+    links.classList.toggle('isactive');
     bar.classList.toggle('active');
-});
+})
